@@ -16,7 +16,7 @@ boneco = "Boneco Malandrinho"
 spinner = "Spinner Pequeno"
 cubo = "Cubo Mágico"
 
-quantidade = 0
+
 texto = """
   1 - Boneco Malandrinho  
   2 - Spinner Pequeno
@@ -26,5 +26,8 @@ print(texto)
 
 
 
-resultado = input("Qual produto que você quer: ")
-escolha = input()
+escolha = input("Qual produto que você quer: ")
+quantidade = input("Quantos item você quer: ")
+
+print(escolha)
+print(quantidade)
